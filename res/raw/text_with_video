@@ -1,0 +1,53 @@
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="UTF-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+<style type="text/css"> 
+* {
+font-family:  Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #000;
+}
+ 
+a {
+color: #00f;
+}
+ 
+body {
+background-color: #fff;
+}
+ 
+h1 {
+text-wrap:normal; 
+font-size:16px;
+}
+ 
+h1 div {
+font-size:12px;
+color:#808080;
+text-align:right;
+margin: 10px 0 0 0;
+}
+ 
+video {
+margin-right:0px;
+max-width:100%;
+-webkit-box-shadow: 1px 1px 5px #777;  
+}
+ 
+p {
+font-size:13px;
+line-height: 1.5;
+}
+</style> 
+</head>  
+<body> 
+<h1>%%%TITLE%%% 
+<div>%%%DATE%%%</div> 
+</h1> 
+<video id="player" src="http://zynkdev.human/resourcebase/index.php?r=service/getFile&fileId=61d073664a90e713dd33c52c3f5e8982&token=352db8bf4a0a87beeabaacce56d65f3b6a40f2c3d405062df7784a9c40b36f80b412cc7e56bc727e501860a160056400011d4dfd878fd9f2b40f91131723f6801e73ae179fa347d551eeb014f3b865af" controls="true" onclick="Android:playVideo("%%%VIDEO%%%");" preload="auto"></video> 
+<p>%%%TEXT%%%</p> 
+</body> 
+</html>

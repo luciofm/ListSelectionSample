@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CheckableLinearLayout">
+        <attr name="background_style" format="reference"></attr>
+        <attr name="selected_background" format="reference"></attr>
+        <attr name="normal_background" format="reference"></attr>
+    </declare-styleable>
+
+</resources>

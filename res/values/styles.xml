@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CheckableLinearLayoutStyle">
+        <item name="selected_background">@android:color/black</item>
+        <item name="normal_background">@android:color/white</item>
+    </style>
+
+</resources>
